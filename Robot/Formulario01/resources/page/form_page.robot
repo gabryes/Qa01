@@ -34,11 +34,7 @@ Dado que eu preencha os campos
     Wait Until Element Is Visible  ${formVar.Input_nome}        10
     Input Text                     ${formVar.Input_nome}        Gabriel
     Wait Until Element Is Visible  ${formVar.Input_phone}       10
-<<<<<<< HEAD
-    Input Text                     ${formVar.Input_phone}       8695652136
-=======
     Input Text                     ${formVar.Input_phone}       8695652134
->>>>>>> 4eadb02e68bb58735d6d852948614fa541fba198
     Wait Until Element Is Visible  ${formVar.Input_email}       10
     Input Text                     ${formVar.Input_email}       gabriel@gabriel.com
     Wait Until Element Is Visible  ${formVar.Input_password}    10
